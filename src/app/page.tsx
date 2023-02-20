@@ -1,8 +1,8 @@
 "use client";
 import { Aside } from "@/components/Aside";
+import { HeaderPage } from "@/components/HeaderPage";
 import { Tweet } from "@/components/Tweet";
 import Image from "next/image";
-import { Sparkle } from "phosphor-react";
 import avatarPNG from "../../public/avatar.png";
 
 export default function Home() {
@@ -10,12 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen">
       <Aside />
       <section className="flex flex-1 flex-col items-start border-l border-r border-zinc-200 dark:border-zinc-800">
-        <div className="flex w-full items-center justify-between py-6 px-5 gap-10 border-b border-zinc-200 dark:border-zinc-800">
-          <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
-            Home
-          </h1>
-          <Sparkle size={32} className="text-brand-primary" />
-        </div>
+        <HeaderPage title="Home" />
 
         <div className="flex w-full flex-col items-start py-6 px-5 border-b border-zinc-200 dark:border-zinc-800 gap-8">
           <div className="flex items-center gap-4 w-full">
