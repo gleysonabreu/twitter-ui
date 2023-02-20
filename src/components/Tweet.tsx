@@ -10,7 +10,7 @@ export function Tweet() {
           alt="Avatar user"
           height={56}
           width={56}
-          className="rounded-full w-14 h-14"
+          className="rounded-full w-12 h-12 lg:w-14 lg:h-14"
         />
         <div className="flex flex-col items-start gap-2">
           <div className="flex gap-1 items-center">
@@ -21,14 +21,14 @@ export function Tweet() {
               @johndoe
             </span>
           </div>
-          <p className="text-base w-4/5 lg:w-full leading-tight text-zinc-900 dark:text-gray-100">
+          <p className="text-base lg:w-full leading-tight text-zinc-900 dark:text-gray-100">
             Acabei de migrar um projeto React GIGANTE de create-react-app para
             Vite e os resultados foram: ✅npm start: De 32s para 400ms (sim,
             demorava 30s) ✅npm build: De 120s para 22s Além disso, troquei do
             Yarn para o PNPM e o install das deps mudou de 24s para 8s 🔥
           </p>
 
-          <footer className="flex pt-3 gap-3 lg:gap-12">
+          <footer className="flex pt-3 gap-5 lg:gap-12">
             <button className="flex gap-2 text-zinc-500 dark:text-gray-600 hover:text-brand-primary transition-colors">
               <ChatCircle size={24} />
               <span>32</span>

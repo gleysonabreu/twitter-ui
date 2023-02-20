@@ -20,7 +20,7 @@ export default function TweetPage() {
               alt="Avatar user"
               height={56}
               width={56}
-              className="rounded-full w-14 h-14"
+              className="rounded-full w-12 h-12 lg:w-14 lg:h-14"
             />
             <input
               type="text"
