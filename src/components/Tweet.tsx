@@ -3,7 +3,7 @@ import { ArrowClockwise, ChatCircle, Heart } from "phosphor-react";
 import avatarPNG from "../../public/avatar.png";
 export function Tweet() {
   return (
-    <div className="flex flex-col justify-center items-start py-6 px-5 border-b border-zinc-200 dark:border-zinc-800">
+    <div className="flex w-full flex-col justify-center items-start py-6 px-5 border-b border-zinc-200 dark:border-zinc-800">
       <div className="flex gap-3">
         <div className="w-14 h-14">
           <Image
